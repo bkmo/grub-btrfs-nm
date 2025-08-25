@@ -1,11 +1,11 @@
 # Forked from https://github.com/Antynea/grub-btrfs
 
-pkgname=grub-btrfs-sdv
+pkgname=grub-btrfs-nm
 pkgver=4.13.2
 pkgrel=1
-pkgdesc="Include btrfs snapshots at boot options (grub menu), add systemd.volatile=state option"
+pkgdesc="Include btrfs snapshots at boot options (grub menu), add no microcode option"
 arch=('any')
-url="https://github.com/bkmo/grub-btrfs-sdv"
+url="https://github.com/bkmo/grub-btrfs-nm"
 license=('GPL3')
 depends=('grub' 'btrfs-progs' 'bash' 'gawk' 'inotify-tools')
 optdepends=('snapper: For snapper support')
