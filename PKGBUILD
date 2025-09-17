@@ -1,7 +1,7 @@
 # Forked from https://github.com/Antynea/grub-btrfs
 
 pkgname=grub-btrfs-nm
-pkgver=4.13.2
+pkgver=4.13.3
 pkgrel=1
 pkgdesc="Include btrfs snapshots at boot options (grub menu), add no microcode option"
 arch=('any')
